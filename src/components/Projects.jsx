@@ -29,6 +29,30 @@ const projects = [
     github: "https://github.com/Inshiya1904/Food-Delivery-Application",
     demo: "https://food-delivery-application-frontend.onrender.com"
   },
+    {
+    id: 4,
+    name: "YouTube-Clone",
+    technologies: "React",
+    image: YouTubeClone,
+    github: "https://github.com/Inshiya1904/YouTube-Clone",
+    demo: "https://youtube-clone-roan-nu.vercel.app"
+  },
+  {
+    id: 5,
+    name: "News-API",
+    technologies: "React",
+    image: newsapi,
+    github: "https://github.com/Inshiya1904/News-api-react-project",
+    demo: "https://news-api-react-project.vercel.app"
+  },
+  {
+    id: 6,
+    name: "Recipe-App",
+    technologies: "React",
+    image: recipeapp,
+    github: "https://github.com/Inshiya1904/Recipe-App-React",
+    demo: "https://recipe-app-react-navy.vercel.app"
+  },
 ];
 
 const Projects = () => {
