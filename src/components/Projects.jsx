@@ -5,6 +5,7 @@ import responsiveWeb from "../assets/responsive-web.png";
 import YouTubeClone from "../assets/youtube.png";
 import newsapi from "../assets/news-api.png";
 import recipeapp from "../assets/recipe-app.png";
+import ecom from "../assets/ecom.png";
 
 
 
@@ -27,6 +28,14 @@ const projects = [
   },
   {
     id: 3,
+    name: "E-Commerce-Website",
+    technologies: "MERN Stack",
+    image: ecom,
+    github: "https://github.com/Inshiya1904/E-Commerce",
+    demo: "https://foreverbuy.in"
+  },
+  {
+    id: 4,
     name: "Food Delivery Application",
     technologies: "MERN Stack",
     image: FoodApp,
@@ -34,7 +43,7 @@ const projects = [
     demo: "https://food-delivery-application-frontend.onrender.com"
   },
   {
-    id: 4,
+    id: 5,
     name: "YouTube-Clone",
     technologies: "React",
     image: YouTubeClone,
@@ -42,7 +51,7 @@ const projects = [
     demo: "https://youtube-clone-roan-nu.vercel.app"
   },
   {
-    id: 5,
+    id: 6,
     name: "News-API",
     technologies: "React",
     image: newsapi,
@@ -50,7 +59,7 @@ const projects = [
     demo: "https://news-api-react-project.vercel.app"
   },
   {
-    id: 6,
+    id: 7,
     name: "Recipe-App",
     technologies: "React",
     image: recipeapp,
