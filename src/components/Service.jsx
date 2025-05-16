@@ -16,13 +16,8 @@ const services = [
     id: 3,
     title: "Full-Stack Development",
     description: "Combining both frontend and backend development skills.",
-<<<<<<< HEAD
-  },
-  
-=======
   }
->>>>>>> 6a0b5a9369de68acfd60ed485d8dc1e128dbb913
-];
+]
 const Service = () => {
   return (
     <div className="py-20 text-white bg-black" id="service">
