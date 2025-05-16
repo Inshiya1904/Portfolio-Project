@@ -1,6 +1,7 @@
 import React from "react";
 
 const services = [
+
   {
     id: 1,
     title: "Frontend Development",
@@ -15,8 +16,12 @@ const services = [
     id: 3,
     title: "Full-Stack Development",
     description: "Combining both frontend and backend development skills.",
+<<<<<<< HEAD
   },
   
+=======
+  }
+>>>>>>> 6a0b5a9369de68acfd60ed485d8dc1e128dbb913
 ];
 const Service = () => {
   return (
