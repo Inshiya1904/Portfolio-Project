@@ -6,6 +6,7 @@ import YouTubeClone from "../assets/youtube.png";
 import newsapi from "../assets/news-api.png";
 import recipeapp from "../assets/recipe-app.png";
 import ecom from "../assets/ecom.png";
+import stdDash from "../assets/Student-Dashboard.png";
 
 
 
@@ -65,6 +66,14 @@ const projects = [
     image: recipeapp,
     github: "https://github.com/Inshiya1904/Recipe-App-React",
     demo: "https://recipe-app-react-navy.vercel.app"
+  },
+  {
+    id: 8,
+    name: "Student-Dashboard",
+    technologies: "MERN Stack",
+    image: stdDash,
+    github: "https://github.com/Inshiya1904/Student-Dashboard",
+    demo: "https://student-dashboard-ji5w.onrender.com"
   },
 ];
 
