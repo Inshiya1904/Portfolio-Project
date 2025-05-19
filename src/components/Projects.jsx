@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "YouTube-Clone",
+    name: "YouTube Clone",
     technologies: "React",
     image: YouTubeClone,
     github: "https://github.com/Inshiya1904/YouTube-Clone",
@@ -54,7 +54,7 @@ const projects = [
   },
   {
     id: 6,
-    name: "News-API",
+    name: "News API",
     technologies: "React",
     image: newsapi,
     github: "https://github.com/Inshiya1904/News-api-react-project",
@@ -62,7 +62,7 @@ const projects = [
   },
   {
     id: 7,
-    name: "Recipe-App",
+    name: "Recipe App",
     technologies: "React",
     image: recipeapp,
     github: "https://github.com/Inshiya1904/Recipe-App-React",
@@ -70,7 +70,7 @@ const projects = [
   },
   {
     id: 8,
-    name: "Student-Dashboard",
+    name: "Student Dashboard",
     technologies: "MERN Stack",
     image: stdDash,
     github: "https://github.com/Inshiya1904/Student-Dashboard",
@@ -78,7 +78,7 @@ const projects = [
   },
   {
     id: 9,
-    name: "Task-Manager-Tool",
+    name: "Task Manager Tool",
     technologies: "MERN Stack",
     image: task,
     github: "https://github.com/Inshiya1904/Task-Manager-Tool",
