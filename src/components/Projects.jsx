@@ -82,7 +82,7 @@ const projects = [
     technologies: "MERN Stack",
     image: task,
     github: "https://github.com/Inshiya1904/Task-Manager-Tool",
-    demo: "https://taskflow-frontend-6swl.onrender.com"
+    demo: "https://task-manager-ro3g.onrender.com"
   },
 ];
 
