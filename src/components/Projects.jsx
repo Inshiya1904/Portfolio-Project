@@ -7,6 +7,7 @@ import newsapi from "../assets/news-api.png";
 import recipeapp from "../assets/recipe-app.png";
 import ecom from "../assets/ecom.png";
 import stdDash from "../assets/Student-Dashboard.png";
+import task from "../assets/task-manager.png";
 
 
 
@@ -74,6 +75,14 @@ const projects = [
     image: stdDash,
     github: "https://github.com/Inshiya1904/Student-Dashboard",
     demo: "https://student-dashboard-ji5w.onrender.com"
+  },
+  {
+    id: 9,
+    name: "Task-Manager-Tool",
+    technologies: "MERN Stack",
+    image: task,
+    github: "https://github.com/Inshiya1904/Task-Manager-Tool",
+    demo: "https://taskflow-frontend-6swl.onrender.com"
   },
 ];
 
