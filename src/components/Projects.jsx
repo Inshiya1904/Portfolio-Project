@@ -22,11 +22,11 @@ const projects = [
   },
   {
     id: 2,
-    name: "Quiz App",
-    technologies: "React",
-    image: quizApp,
-    github: "https://github.com/Inshiya1904/Quiz-App",
-    demo: "https://quiz-app-phqv.onrender.com"
+    name: "Task Manager Tool",
+    technologies: "MERN Stack",
+    image: task,
+    github: "https://github.com/Inshiya1904/Task-Manager-Tool",
+    demo: "https://taskflow-frontend-6swl.onrender.com"
   },
   {
     id: 3,
@@ -78,11 +78,11 @@ const projects = [
   },
   {
     id: 9,
-    name: "Task Manager Tool",
-    technologies: "MERN Stack",
-    image: task,
-    github: "https://github.com/Inshiya1904/Task-Manager-Tool",
-    demo: "https://taskflow-frontend-6swl.onrender.com"
+    name: "Quiz App",
+    technologies: "React",
+    image: quizApp,
+    github: "https://github.com/Inshiya1904/Quiz-App",
+    demo: "https://quiz-app-phqv.onrender.com"
   },
 ];
 
