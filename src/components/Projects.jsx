@@ -76,14 +76,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Student-Dashboard",
     demo: "https://student-dashboard-ji5w.onrender.com"
   },
-  {
-    id: 9,
-    name: "Task Manager Tool",
-    technologies: "MERN Stack",
-    image: task,
-    github: "https://github.com/Inshiya1904/Task-Manager-Tool",
-    demo: "https://taskflow-frontend-6swl.onrender.com"
-  },
+ 
 ];
 
 const Projects = () => {
