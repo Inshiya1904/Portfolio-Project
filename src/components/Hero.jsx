@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroImage from '../assets/img.jpg'
-import ShahinaCV from '../assets/Shahina CV.pdf'
+import ShahinaCV from '../assets/ShahinaCV.pdf'
 const Hero = () => {
   return (
     <div className='bg-black text-white text-center py-16'>
