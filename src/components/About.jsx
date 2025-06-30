@@ -15,7 +15,7 @@ const About = () => {
             className="w-72 h-80 rounded-lg object-cover mb-8 md:mb-0 shadow-lg"
           />
           <div className="flex-1">
-            <p className="text-lg mb-8 text-gray-300 leading-relaxed">
+            <p className="text-md mb-8 text-gray-300 leading-relaxed">
               I'm Shahina Sheikh, a Full-Stack Developer skilled in building responsive web applications using the MERN stack and modern technologies. I’ve developed real-time chat apps, e-commerce platforms, and integrated AI tools using APIs like OpenAI and Gemini. My passion lies in clean code, great UX, and scalable backend systems.
             </p>
 

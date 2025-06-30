@@ -8,6 +8,7 @@ import recipeapp from "../assets/recipe-app.png";
 import ecom from "../assets/ecom.png";
 import stdDash from "../assets/Student-Dashboard.png";
 import task from "../assets/task-manager.png";
+import mindleap from "../assets/MindLeap.png";
 
 
 
@@ -46,6 +47,14 @@ const projects = [
   },
   {
     id: 5,
+    name: "MindLeap Lending Page",
+    technologies: "React",
+    image: mindleap,
+    github: "https://github.com/Inshiya1904/Mental-wellness-lendingPage",
+    demo: "https://mental0-wellness-lendingpage.onrender.com"
+  },
+  {
+    id: 6,
     name: "YouTube Clone",
     technologies: "React",
     image: YouTubeClone,
@@ -53,7 +62,7 @@ const projects = [
     demo: "https://youtube-clone-roan-nu.vercel.app"
   },
   {
-    id: 6,
+    id: 7,
     name: "News API",
     technologies: "React",
     image: newsapi,
@@ -61,7 +70,7 @@ const projects = [
     demo: "https://news-api-react-project.vercel.app"
   },
   {
-    id: 7,
+    id: 8,
     name: "Recipe App",
     technologies: "React",
     image: recipeapp,
@@ -69,7 +78,7 @@ const projects = [
     demo: "https://recipe-app-react-navy.vercel.app"
   },
   {
-    id: 8,
+    id: 9,
     name: "Student Dashboard",
     technologies: "MERN Stack",
     image: stdDash,
