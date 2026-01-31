@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/img.jpg";
-import ShahinaCV from "../assets/ShahinaCV.pdf";
+import ShahinaCV from "../assets/Shahina-FSD.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
