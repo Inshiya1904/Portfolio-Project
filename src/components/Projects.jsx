@@ -9,17 +9,18 @@ import ecom from "../assets/ecom.png";
 import stdDash from "../assets/Student-Dashboard.png";
 import task from "../assets/task-manager.png";
 import mindleap from "../assets/MindLeap.png";
+import blackcoffer from "../assets/blackcoffer.png";
 
 
 
 const projects = [
   {
     id: 1,
-    name: "Responsive Website",
-    technologies: "React",
-    image: responsiveWeb,
-    github: "https://github.com/Inshiya1904/React-Responsive-Website",
-    demo: "https://react-responsive-website.onrender.com"
+    name: "BlackCoffer Dashboard",
+    technologies: "MERN",
+    image: blackcoffer,
+    github: "https://github.com/Inshiya1904/BlackCoffer-Dashboard",
+    demo: "https://blackcoffer-dashboard-hh6p.onrender.com"
   },
   {
     id: 2,
@@ -63,6 +64,14 @@ const projects = [
   },
   {
     id: 7,
+    name: "Responsive Website",
+    technologies: "React",
+    image: responsiveWeb,
+    github: "https://github.com/Inshiya1904/React-Responsive-Website",
+    demo: "https://react-responsive-website.onrender.com"
+  },
+  {
+    id: 8,
     name: "News API",
     technologies: "React",
     image: newsapi,
@@ -70,7 +79,7 @@ const projects = [
     demo: "https://news-api-react-project.vercel.app"
   },
   {
-    id: 8,
+    id: 9,
     name: "Recipe App",
     technologies: "React",
     image: recipeapp,
@@ -78,7 +87,7 @@ const projects = [
     demo: "https://recipe-app-react-navy.vercel.app"
   },
   {
-    id: 9,
+    id: 10,
     name: "Student Dashboard",
     technologies: "MERN Stack",
     image: stdDash,
