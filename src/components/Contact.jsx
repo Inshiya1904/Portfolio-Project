@@ -100,7 +100,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="emial" className="block mb-2">
+                <label htmlFor="email" className="block mb-2">
                   Email
                 </label>
                 <input
