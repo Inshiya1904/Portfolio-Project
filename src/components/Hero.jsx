@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="bg-black text-white text-center py-16">
+    <div className="bg-black text-white text-center py-20">
       <img
         src={HeroImage}
         alt=""

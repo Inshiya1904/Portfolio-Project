@@ -29,7 +29,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Task-Manager-Tool",
     demo: "https://taskflow-frontend-6swl.onrender.com",
     description:
-      "Task management system with authentication, CRUD operations, and real-time updates for productivity.",
+      "Task management system with authentication, CRUD operations, and real-time updates.",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/E-Commerce",
     demo: "https://foreverbuy.in",
     description:
-      "Full-featured e-commerce platform with cart, checkout, user authentication, and product management.",
+      "Full-featured e-commerce platform with cart, checkout, authentication, and product management.",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Food-Delivery-Application",
     demo: "https://food-delivery-application-frontend.onrender.com",
     description:
-      "Online food ordering platform with menu browsing, cart system, and responsive UI design.",
+      "Online food ordering platform with menu browsing, cart system, and responsive UI.",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Mental-wellness-lendingPage",
     demo: "https://mental0-wellness-lendingpage.onrender.com",
     description:
-      "Modern mental wellness landing page with smooth UI, animations, and responsive design.",
+      "Modern mental wellness landing page with smooth UI and responsive design.",
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/YouTube-Clone",
     demo: "https://youtube-clone-roan-nu.vercel.app",
     description:
-      "YouTube UI clone with video listing, search functionality, and API integration.",
+      "YouTube UI clone with video listing, search, and API integration.",
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/News-api-react-project",
     demo: "https://news-api-react-project.vercel.app",
     description:
-      "Real-time news application using external API with category filtering and dynamic updates.",
+      "Real-time news app using API with category filtering and dynamic updates.",
   },
   {
     id: 8,
@@ -89,7 +89,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Recipe-App-React",
     demo: "https://recipe-app-react-navy.vercel.app",
     description:
-      "Recipe search application with API integration and clean UI for browsing dishes.",
+      "Recipe search app with API integration and clean UI.",
   },
   {
     id: 9,
@@ -99,7 +99,7 @@ const projects = [
     github: "https://github.com/Inshiya1904/Student-Dashboard",
     demo: "https://student-dashboard-ji5w.onrender.com",
     description:
-      "Dashboard for managing student data with authentication, CRUD operations, and analytics view.",
+      "Dashboard for managing student data with authentication and CRUD operations.",
   },
 ];
 
@@ -107,23 +107,24 @@ const Projects = () => {
   return (
     <section id="project" className="py-20 bg-black text-white">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-        
+
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-12">
+        <h2 className="text-4xl font-bold text-center mb-16">
           My Projects
         </h2>
 
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
+            
             <div
               key={project.id}
-              className="bg-gray-800 p-5 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-lg"
+              className="bg-gray-800 p-5 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 flex flex-col h-full"
             >
-              
-              {/* Featured Tag */}
+
+              {/* Featured */}
               {index < 3 && (
-                <span className="text-xs bg-green-500 px-2 py-1 rounded">
+                <span className="text-xs bg-green-500 px-2 py-1 rounded w-fit">
                   Featured
                 </span>
               )}
@@ -136,42 +137,45 @@ const Projects = () => {
                 className="w-full h-44 object-cover rounded-lg mt-2"
               />
 
-              {/* Title */}
-              <h3 className="text-xl font-bold mt-3">
-                {project.name}
-              </h3>
+              {/* Content */}
+              <div className="flex flex-col flex-grow">
 
-              {/* Description */}
-              <p className="text-gray-400 text-sm mt-2 leading-relaxed">
-                {project.description}
-              </p>
+                <h3 className="text-xl font-bold mt-3">
+                  {project.name}
+                </h3>
 
-              {/* Tech */}
-              <p className="text-green-400 text-sm mt-2">
-                {project.technologies}
-              </p>
+                <p className="text-gray-400 text-sm mt-2 leading-relaxed">
+                  {project.description}
+                </p>
 
-              {/* Buttons */}
-              <div className="flex justify-between mt-4">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition"
-                >
-                  GitHub
-                </a>
+                <p className="text-green-400 text-sm mt-2">
+                  {project.technologies}
+                </p>
 
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-pink-500 to-yellow-500 hover:scale-105 transition"
-                >
-                  Live Demo
-                </a>
+                {/* Buttons at bottom */}
+                <div className="mt-auto flex justify-between pt-4">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition"
+                  >
+                    GitHub
+                  </a>
+
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-pink-500 to-yellow-500 hover:scale-105 transition"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+
               </div>
             </div>
+
           ))}
         </div>
       </div>
