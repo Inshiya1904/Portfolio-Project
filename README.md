@@ -39,22 +39,16 @@ https://portfolio-project-d9c4.onrender.com/
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here later if you want)
-
----
-
 ## 📂 Project Setup
 
 To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Inshiya1904/your-repo-name.git
+git clone https://github.com/Inshiya1904/Portfolio-Project.git
 
 # Navigate to project folder
-cd your-repo-name
+cd Portfolio-Project
 
 # Install dependencies
 npm install
@@ -78,8 +72,8 @@ npm start
 
 If you'd like to connect with me:
 
-* 📧 Email: (your email here)
-* 💼 LinkedIn: (your LinkedIn link)
+* 📧 Email: sonashekhu09@gmail.com
+* 💼 LinkedIn: https://www.linkedin.com/in/shahina-sheikh/
 * 🐙 GitHub: https://github.com/Inshiya1904
 
 ---
