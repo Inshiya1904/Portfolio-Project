@@ -18,26 +18,29 @@ import {
 } from "react-icons/si";
 
 const About = () => {
-   return (
+  return (
     <section id="about" className="bg-black text-white py-20">
       <div className="container mx-auto px-6 md:px-16">
         <h2 className="text-4xl font-bold text-center mb-10">About Me</h2>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <img src={AboutImage} className="w-64 rounded-lg shadow-lg" />
+          <img src={AboutImage} className="w-64  rounded-lg shadow-lg" />
 
           <div>
             <p className="text-gray-300 mb-6">
-              I'm a Full-Stack Developer specializing in MERN stack. I have
-              built 10+ projects including real-time chat apps, dashboards,
-              and AI-integrated platforms.
+              I'm a Junior Software Developer currently working with a UK-based
+              client on live WMS/TMS systems. I specialize in backend
+              development using PHP (PDO) and MariaDB, along with full-stack
+              development using the MERN stack. I have experience in maintaining
+              production systems, debugging complex logic, and building scalable
+              applications.
             </p>
 
             <ul className="text-gray-400 space-y-2 mb-6">
-              <li>✔ 10+ Projects Completed</li>
-              <li>✔ REST API & Authentication</li>
-              <li>✔ Real-time Applications</li>
-              <li>✔ AI Integration (OpenAI, Gemini)</li>
+              <li>✔ Working on live production systems (WMS/TMS)</li>
+              <li>✔ Backend Development using PHP & MariaDB</li>
+              <li>✔ Full-Stack Development using MERN Stack</li>
+              <li>✔ Strong problem-solving & debugging skills</li>
             </ul>
 
             <h3 className="text-xl font-semibold mb-3">Tech Stack</h3>
@@ -47,6 +50,9 @@ const About = () => {
               <Skill label="MongoDB" />
               <Skill label="Redux" />
               <Skill label="Tailwind" />
+              <Skill label="PHP" />
+              <Skill label="MySQL" />
+              <Skill label="MariaDB" />
               <Skill label="Firebase" />
             </div>
           </div>

@@ -88,8 +88,7 @@ const projects = [
     image: recipeapp,
     github: "https://github.com/Inshiya1904/Recipe-App-React",
     demo: "https://recipe-app-react-navy.vercel.app",
-    description:
-      "Recipe search app with API integration and clean UI.",
+    description: "Recipe search app with API integration and clean UI.",
   },
   {
     id: 9,
@@ -107,21 +106,18 @@ const Projects = () => {
   return (
     <section id="project" className="py-20 bg-black text-white">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-16">
-          My Projects
+          Projects (Personal Work)
         </h2>
 
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            
             <div
               key={project.id}
               className="bg-gray-800 p-5 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 flex flex-col h-full"
             >
-
               {/* Featured */}
               {index < 3 && (
                 <span className="text-xs bg-green-500 px-2 py-1 rounded w-fit">
@@ -139,10 +135,7 @@ const Projects = () => {
 
               {/* Content */}
               <div className="flex flex-col flex-grow">
-
-                <h3 className="text-xl font-bold mt-3">
-                  {project.name}
-                </h3>
+                <h3 className="text-xl font-bold mt-3">{project.name}</h3>
 
                 <p className="text-gray-400 text-sm mt-2 leading-relaxed">
                   {project.description}
@@ -172,10 +165,8 @@ const Projects = () => {
                     Live Demo
                   </a>
                 </div>
-
               </div>
             </div>
-
           ))}
         </div>
       </div>

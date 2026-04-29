@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/img.jpg";
-import ShahinaCV from "../assets/Shahina-FSD.pdf";
+import ShahinaCV from "../assets/Shahina-Resume.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
@@ -12,16 +12,17 @@ const Hero = () => {
         className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform 
           transition-transform duration-300 hover:scale-105"
       />
-      <h1 className="text-4xl font-bold ">
+      <h1 className="text-4xl font-bold">
         I'm{" "}
-        <span className="text-transparent  bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           Shahina Sheikh
         </span>
-        , Full-Stack Developer
+        , Junior Software Developer
       </h1>
+
       <p className="mt-4 text-lg text-gray-300">
-        I build scalable MERN applications, real-time systems, and AI-powered
-        tools that solve real-world problems.
+        Working on live WMS/TMS systems using PHP and MariaDB. I build scalable
+        backend systems and full-stack applications using PHP and MERN stack.
       </p>
       <div className="flex justify-center items-center gap-6 mt-6">
         <a

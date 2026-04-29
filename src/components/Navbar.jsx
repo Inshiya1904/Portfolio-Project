@@ -23,6 +23,8 @@ const Navbar = () => {
         <div className="space-x-6 hidden md:flex items-center">
           <a href="#home" className="hover:text-green-400 transition">Home</a>
           <a href="#about" className="hover:text-green-400 transition">About</a>
+          <a href="#experience" className="hover:text-green-400 transition">Experience</a>
+
           <a href="#service" className="hover:text-green-400 transition">Services</a>
           <a href="#project" className="hover:text-green-400 transition">Projects</a>
           <a href="#contact" className="hover:text-green-400 transition">Contact</a>

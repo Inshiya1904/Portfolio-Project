@@ -20,10 +20,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_s0n39v8",       // your service ID
-        "template_7exo47v",      // your template ID
+        "service_s0n39v8", // your service ID
+        "template_7exo47v", // your template ID
         form.current,
-        "S6lOC2AhhCug2GXZE"      // your public key
+        "S6lOC2AhhCug2GXZE", // your public key
       )
       .then(
         (result) => {
@@ -44,7 +44,7 @@ const Contact = () => {
         (error) => {
           console.error("FAILED:", error.text);
           alert(error.text || "Failed to send enquiry");
-        }
+        },
       );
   };
 
@@ -55,14 +55,10 @@ const Contact = () => {
   return (
     <section className="bg-black text-white py-20" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-16">
-          Contact Me
-        </h2>
+        <h2 className="text-4xl font-bold text-center mb-16">Contact Me</h2>
 
         <div className="flex flex-col md:flex-row gap-12">
-
           {/* LEFT SIDE */}
           <div className="flex-1">
             <h3 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent mb-4">
@@ -70,13 +66,17 @@ const Contact = () => {
             </h3>
 
             <p className="text-gray-300">
-              I'm open to discussing web development projects or partnership opportunities.
+              I'm open to freelance work, backend development roles, and
+              full-stack opportunities. Feel free to reach out!
             </p>
 
             <div className="mt-8 space-y-4 text-gray-300">
               <div>
                 <FaEnvelope className="inline mr-2 text-green-400" />
-                <a href="mailto:sonashekhu09@gmail.com" className="hover:underline">
+                <a
+                  href="mailto:sonashekhu09@gmail.com"
+                  className="hover:underline"
+                >
                   sonashekhu09@gmail.com
                 </a>
               </div>
@@ -96,7 +96,6 @@ const Contact = () => {
           {/* RIGHT SIDE FORM */}
           <div className="flex-1 w-full max-w-lg">
             <form ref={form} onSubmit={sendEmail} className="space-y-4">
-
               {/* NAME */}
               <input
                 type="text"
