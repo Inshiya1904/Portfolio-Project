@@ -24,8 +24,7 @@ const Navbar = () => {
           <a href="#home" className="hover:text-green-400 transition">Home</a>
           <a href="#about" className="hover:text-green-400 transition">About</a>
           <a href="#experience" className="hover:text-green-400 transition">Experience</a>
-
-          <a href="#service" className="hover:text-green-400 transition">Services</a>
+          {/* <a href="#service" className="hover:text-green-400 transition">Services</a> */}
           <a href="#project" className="hover:text-green-400 transition">Projects</a>
           <a href="#contact" className="hover:text-green-400 transition">Contact</a>
           
@@ -45,7 +44,7 @@ const Navbar = () => {
         <div className="md:hidden flex flex-col space-y-4 mt-4 pb-4">
           <a href="#home" className="hover:text-gray-400" onClick={toggleMenu}>Home</a>
           <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About Me</a>
-          <a href="#service" className="hover:text-gray-400" onClick={toggleMenu}>Services</a>
+          <a href="#experience" className="hover:text-gray-400" onClick={toggleMenu}>Experience</a>
           <a href="#project" className="hover:text-gray-400" onClick={toggleMenu}>Projects</a>
           <a href="#contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</a>
           <a href="#contact">

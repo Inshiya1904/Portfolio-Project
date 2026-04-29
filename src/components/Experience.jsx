@@ -7,7 +7,7 @@ const experiences = [
     role: "Junior Software Developer (Freelance)",
     duration: "April 2026 – Present",
     highlight:
-      "Working on a live logistics system handling real-world operations",
+      "Contributing to a live WMS/TMS air cargo logistics system handling real-world operations",
     points: [
       "Maintaining and enhancing WMS/TMS systems used in logistics operations",
       "Debugging and improving PHP (PDO) & MariaDB codebase",
@@ -21,6 +21,8 @@ const experiences = [
     location: "Remote",
     role: "Full Stack Developer Intern",
     duration: "Oct 2024 – Jan 2026",
+    highlight:
+      "Developed core backend modules for a kitchen management system and built a complete supplier management dashboard using MERN stack",
     points: [
       "Developed scalable backend systems using Node.js, Express & MongoDB",
       "Implemented JWT authentication and role-based access control",
@@ -35,6 +37,7 @@ const experiences = [
     location: "Remote",
     role: "Full Stack Developer Intern",
     duration: "Mar 2024 – Sep 2025",
+    highlight: "Built multiple full-stack applications as part of structured internship projects using MERN stack",
     points: [
       "Developed 4+ MERN stack applications with authentication and CRUD",
       "Integrated third-party APIs and cloud services",
@@ -49,35 +52,30 @@ const Experience = () => {
   return (
     <section id="experience" className="bg-black text-white py-24">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
-
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-3">
-          Experience
-        </h2>
+        <h2 className="text-4xl font-bold text-center mb-3">Experience</h2>
         <p className="text-gray-400 text-center mb-12">
           My journey from internships to real-world development
         </p>
 
         {/* Timeline Wrapper */}
         <div className="relative">
-
           {/* Vertical Line */}
           <div className="absolute left-5 top-0 h-full w-[2px] bg-gray-700"></div>
 
           {/* Experience Items */}
           <div className="space-y-12">
-
             {experiences.map((exp, index) => (
               <div key={index} className="relative pl-14">
-
                 {/* Timeline Dot */}
                 <div className="absolute left-3 top-6 w-4 h-4 bg-green-400 rounded-full border-2 border-black shadow-[0_0_10px_#22c55e]"></div>
 
                 {/* Card */}
-                <div className="bg-gray-900/60 backdrop-blur-md border border-gray-700 
+                <div
+                  className="bg-gray-900/60 backdrop-blur-md border border-gray-700 
                 rounded-xl p-6 shadow-lg hover:shadow-green-500/10 
-                hover:scale-[1.02] transition duration-300">
-
+                hover:scale-[1.02] transition duration-300"
+                >
                   {/* Company */}
                   <h3 className="text-xl font-semibold">
                     {exp.company}{" "}
@@ -87,20 +85,14 @@ const Experience = () => {
                   </h3>
 
                   {/* Role */}
-                  <p className="text-gray-300 font-medium mt-1">
-                    {exp.role}
-                  </p>
+                  <p className="text-gray-300 font-medium mt-1">{exp.role}</p>
 
                   {/* Duration */}
-                  <p className="text-gray-500 italic">
-                    {exp.duration}
-                  </p>
+                  <p className="text-gray-500 italic">{exp.duration}</p>
 
                   {/* Highlight */}
                   {exp.highlight && (
-                    <p className="text-gray-400 mt-2">
-                      {exp.highlight}
-                    </p>
+                    <p className="text-gray-400 mt-2">{exp.highlight}</p>
                   )}
 
                   {/* Tech Tags */}
@@ -122,13 +114,8 @@ const Experience = () => {
                         {point.includes("PHP") ? (
                           <>
                             Debugging and improving{" "}
-                            <span className="text-green-400">
-                              PHP (PDO)
-                            </span>{" "}
-                            &{" "}
-                            <span className="text-blue-400">
-                              MariaDB
-                            </span>{" "}
+                            <span className="text-green-400">PHP (PDO)</span> &{" "}
+                            <span className="text-blue-400">MariaDB</span>{" "}
                             codebase
                           </>
                         ) : (
@@ -137,11 +124,9 @@ const Experience = () => {
                       </li>
                     ))}
                   </ul>
-
                 </div>
               </div>
             ))}
-
           </div>
         </div>
       </div>
