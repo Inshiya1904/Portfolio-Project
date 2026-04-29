@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/img.jpg";
+import HeroImage from "../assets/ProfilePic.jpeg";
 import ShahinaCV from "../assets/Shahina-Resume.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -9,7 +9,7 @@ const Hero = () => {
       <img
         src={HeroImage}
         alt=""
-        className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform 
+        className="mx-auto mb-8 w-48 h-48 rounded-full object-cover object-[center_20%] border-4 border-gray-700 shadow-lg transform 
           transition-transform duration-300 hover:scale-105"
       />
       <h1 className="text-4xl font-bold">
