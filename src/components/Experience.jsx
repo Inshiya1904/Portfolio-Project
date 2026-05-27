@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "MDF Solutions Ltd",
     location: "UK Client",
-    role: "Junior Software Developer (Freelance)",
+    role: "Software Developer (Freelance)",
     duration: "April 2026 – Present",
     highlight:
       "Contributing to a live WMS/TMS air cargo logistics system handling real-world operations",
@@ -37,7 +37,8 @@ const experiences = [
     location: "Remote",
     role: "Full Stack Developer Intern",
     duration: "Mar 2024 – Sep 2025",
-    highlight: "Built multiple full-stack applications as part of structured internship projects using MERN stack",
+    highlight:
+      "Built multiple full-stack applications as part of structured internship projects using MERN stack",
     points: [
       "Developed 4+ MERN stack applications with authentication and CRUD",
       "Integrated third-party APIs and cloud services",

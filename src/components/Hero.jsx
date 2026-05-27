@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/ProfilePic.jpeg";
-import ShahinaCV from "../assets/Shahina-Resume.pdf";
+import ShahinaCV from "../assets/Shahina.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           Shahina Sheikh
         </span>
-        , Junior Software Developer
+        , Software Developer
       </h1>
 
       <p className="mt-4 text-lg text-gray-300">
