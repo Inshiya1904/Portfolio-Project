@@ -1,17 +1,16 @@
-
 import React from "react";
 import FoodApp from "../assets/food-app.png";
 import blackcoffer from "../assets/blackcoffer.png";
 import ecom from "../assets/ecom.png";
 import task from "../assets/task-manager.png";
-import trackingImg from "../assets/trackingSystem.png"
+import trackingImg from "../assets/trackingSystem.png";
 
 // ❌ Lower impact / learning projects (kept for reference)
 // import YouTubeClone from "../assets/youtube.png";
 // import newsapi from "../assets/news-api.png";
 // import recipeapp from "../assets/recipe-app.png";
 // import stdDash from "../assets/Student-Dashboard.png";
-// import mindleap from "../assets/MindLeap.png";
+import mindleap from "../assets/MindLeap.png";
 
 const projects = [
   {
@@ -27,14 +26,14 @@ const projects = [
   },
   {
     id: 2,
-    name: "Task Manager Tool",
+    name: "Metal Wellness Lending Page",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
-    image: task,
-    github: "https://github.com/Inshiya1904/Task-Manager-Tool",
-    demo: "https://taskflow-frontend-6swl.onrender.com",
+    image: mindleap,
+    github: "https://github.com/Inshiya1904/MetalWellness-Lendingpage-MERN",
+    demo: "https://metalwellness-lendingpage-mern-1.onrender.com/",
     featured: true,
     description:
-      "Task management system with JWT authentication and CRUD operations, improving task tracking and productivity.",
+      "Developed a modern and responsive mental wellness landing page using the MERN stack. Features a clean UI, engaging sections, smooth navigation, contact form integration, and a mobile-first design to provide an excellent user experience",
   },
   {
     id: 3,
@@ -158,7 +157,6 @@ const Projects = () => {
 };
 
 export default Projects;
-
 
 // old code
 
