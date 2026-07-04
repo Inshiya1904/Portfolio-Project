@@ -27,7 +27,7 @@ const projects = [
   {
     id: 2,
     name: "Metal Wellness Lending Page",
-    tech: ["React", "Node.js", "MongoDB", "JWT"],
+    tech: ["React", "Node.js", "MongoDB"],
     image: mindleap,
     github: "https://github.com/Inshiya1904/MetalWellness-Lendingpage-MERN",
     demo: "https://metalwellness-lendingpage-mern-1.onrender.com/",
