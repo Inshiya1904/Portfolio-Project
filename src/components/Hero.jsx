@@ -17,12 +17,14 @@ const Hero = () => {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           Shahina Sheikh
         </span>
-        , Software Developer
+        , Full Stack Developer
       </h1>
 
       <p className="mt-4 text-lg text-gray-300">
-        Working on live WMS/TMS systems using PHP and MariaDB. I build scalable
-        backend systems and full-stack applications using PHP and MERN stack.
+        Full Stack Developer specializing in PHP, Laravel, React, Node.js,
+        MySQL/MariaDB and MongoDB. Experienced in building web applications,
+        REST APIs, admin dashboards, and currently working on live production
+        systems for a UK-based client.
       </p>
       <div className="flex justify-center items-center gap-6 mt-6">
         <a
