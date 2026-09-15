@@ -11,60 +11,100 @@ import trackingImg from "../assets/trackingSystem.png";
 // import recipeapp from "../assets/recipe-app.png";
 // import stdDash from "../assets/Student-Dashboard.png";
 import mindleap from "../assets/MindLeap.png";
+import cityHeros from "../assets/cityHeros.png";
+import MPS from "../assets/MPS.png";
+import Fashion from "../assets/Fashion.png";
+import Arshit from "../assets/Arshit.png";
 
 const projects = [
   {
     id: 1,
+    name: "City Heros",
+    tech: ["React", "Node.js", "MongoDB"],
+    image: cityHeros,
+    demo: "https://www.cityheros.online/",
+    description:
+      "A trusted home-services platform that connects customers with verified professionals — repairs, cleaning, beauty, healthcare, education, and appliance care — with doorstep booking and a fast, mobile-first experience.",
+  },
+  {
+    id: 2,
+    name: "MPS Education",
+    tech: ["React"],
+    image: MPS,
+    demo: "https://www.mpseducation.org/",
+    description:
+      "Institution website with responsive design and a clear information architecture",
+  },
+  {
+    id: 3,
+    name: "Daffodils Collection",
+    tech: ["MERN"],
+    image: Fashion,
+    demo: "https://daffodils-collection.vercel.app/",
+    description: "Fashion Store with clean browsing experience.",
+  },
+  {
+    id: 4,
+    name: "Arshit Automation",
+    tech: ["MERN"],
+    image: Arshit,
+    demo: "https://ashirt-automation.online/",
+    description:
+      "Business site for pigmy POS machines, Souhardha society ERP and GST billing.",
+  },
+
+  {
+    id: 5,
     name: "BlackCoffer Dashboard",
     tech: ["React", "Node.js", "MongoDB", "Charts"],
     image: blackcoffer,
     github: "https://github.com/Inshiya1904/BlackCoffer-Dashboard",
     demo: "https://blackcoffer-dashboard-hh6p.onrender.com",
-    featured: true,
+
     description:
       "Interactive data visualization dashboard with filters and charts, enabling better insights and decision-making.",
   },
   {
-    id: 2,
+    id: 6,
     name: "Metal Wellness Lending Page",
     tech: ["React", "Node.js", "MongoDB"],
     image: mindleap,
     github: "https://github.com/Inshiya1904/MetalWellness-Lendingpage-MERN",
     demo: "https://metalwellness-lendingpage-mern-1.onrender.com/",
-    featured: true,
+
     description:
       "Developed a modern and responsive mental wellness landing page using the MERN stack. Features a clean UI, engaging sections, smooth navigation, contact form integration, and a mobile-first design to provide an excellent user experience",
   },
   {
-    id: 3,
+    id: 7,
     name: "E-Commerce Website",
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
     image: ecom,
     github: "https://github.com/Inshiya1904/E-Commerce",
     demo: "https://foreverbuy.in",
-    featured: true,
+
     description:
       "Full-featured e-commerce platform with authentication, cart, and checkout, supporting complete user purchase flow.",
   },
   {
-    id: 4,
+    id: 8,
     name: "Food Delivery App",
     tech: ["React", "Node.js", "MongoDB"],
     image: FoodApp,
     github: "https://github.com/Inshiya1904/Food-Delivery-Application",
     demo: "https://food-delivery-application-frontend.onrender.com",
-    featured: false,
+
     description:
       "Online food ordering application with menu browsing, cart system, and responsive UI for seamless user experience.",
   },
   {
-    id: 5,
+    id: 9,
     name: "Air Cargo Shipment Tracking Landing Page",
     tech: ["PHP", "JavaScript", "HTML", "CSS"],
     image: trackingImg,
     github: "", // keep empty if private
     demo: "https://demo-tracking.mdf-solutions.co.uk",
-    featured: true,
+
     description:
       "Developed a landing page for an air cargo shipment tracking system, enabling users to track shipments and access logistics information with a clean and responsive UI.",
   },
@@ -129,20 +169,20 @@ const Projects = () => {
 
                 {/* Buttons */}
                 <div className="mt-auto flex justify-between pt-4">
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition"
                   >
                     GitHub
-                  </a>
+                  </a> */}
 
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-full text-white bg-gradient-to-r from-pink-500 to-yellow-500 hover:scale-105 transition"
+                    className="w-full inline-flex justify-center items-center px-5 py-2.5 rounded-full text-white font-medium bg-gradient-to-r from-pink-500 to-yellow-500 hover:scale-[1.02] hover:shadow-lg hover:shadow-pink-500/20 transition duration-300"
                   >
                     Live Demo
                   </a>
