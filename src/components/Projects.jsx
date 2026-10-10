@@ -15,6 +15,9 @@ import cityHeros from "../assets/cityHeros.png";
 import MPS from "../assets/MPS.png";
 import Fashion from "../assets/Fashion.png";
 import Arshit from "../assets/Arshit.png";
+import CleaningImg from "../assets/cleaningImg.png";
+import TravelWeb from "../assets/travelweb.png";
+import clothingweb from "../assets/clothingweb.png";
 
 const projects = [
   {
@@ -107,6 +110,36 @@ const projects = [
 
     description:
       "Developed a landing page for an air cargo shipment tracking system, enabling users to track shipments and access logistics information with a clean and responsive UI.",
+  },
+  {
+    id: 10,
+    name: "Professional House Cleaning Service Website",
+    tech: ["Wordpress"],
+    image: CleaningImg,
+    github: "", // keep empty if private
+    demo: "https://www.aquastarcleaning.com/",
+
+    description: "",
+  },
+  {
+    id: 11,
+    name: "Premium Travel Agency Website with Custom Tour Packages & Destination Guide",
+    tech: ["Wordpress"],
+    image: TravelWeb,
+    github: "", // keep empty if private
+    demo: "https://www.insidejapantours.com/",
+
+    description: "",
+  },
+  {
+    id: 12,
+    name: "Revere7 Premium Mens Clothing Website",
+    tech: ["Wordpress"],
+    image: clothingweb,
+    github: "", // keep empty if private
+    demo: "https://revere7.com/",
+
+    description: "",
   },
 ];
 
